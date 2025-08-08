@@ -1,6 +1,12 @@
 import { useTranslations } from 'next-intl';
-
-export default function Page() {
-  const t = useTranslations();
-  return <h1>{t('title')}</h1>;
+import { Link } from '@/i18n/navigation';
+ 
+export default function HomePage() {
+  const t = useTranslations('HomePage');
+  return (
+    <div>
+      <h1>{t('title')}</h1>
+      <Link href="/about">{t('logout')}</Link>
+    </div>
+  );
 }

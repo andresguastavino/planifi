@@ -1,5 +1,7 @@
 {
-    "title": "Welcome to PlaniFi",
-    "addDebt": "Add new debt",
-    "logout": "Log out"
+    "HomePage": {
+        "title": "Welcome to PlaniFi",
+        "addDebt": "Add new debt",
+        "logout": "Log out"
+    }
 }

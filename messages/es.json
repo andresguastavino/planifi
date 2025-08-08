@@ -1,5 +1,7 @@
 {
-    "title": "Bienvenido a PlaniFi",
-    "addDebt": "Agregar deuda",
-    "logout": "Cerrar sesión"
+    "HomePage": {
+        "title": "Bienvenido a PlaniFi",
+        "addDebt": "Agregar deuda",
+        "logout": "Cerrar sesión"
+    }
 }
